@@ -1,16 +1,10 @@
-## Option 2: Academy of Py
+## Exercise Using Pandas
 
-![Education](PyCitySchools/Resources/school_image.png)
-
-Well done! Having spent years analyzing financial records for big banks, you've finally scratched your idealistic itch and joined the education sector. In your latest role, you've become the Chief Data Scientist for your city's school district. In this capacity, you'll be helping the  school board and mayor make strategic decisions regarding future school budgets and priorities.
-
-As a first task, you've been asked to analyze the district-wide standardized test results. You'll be given access to every student's math and reading scores, as well as various information on the schools they attend. Your responsibility is to aggregate the data to and showcase obvious trends in school performance.
-
-Your final report should include each of the following:
+For this project, I analyzed the results of standardized tests for an entire school district. The data contains each student's math and reading scores, as well as a variety of information about the schools they attend.
 
 ### District Summary
 
-* Create a high level snapshot (in table form) of the district's key metrics, including:
+Table of the district's key metrics:
   * Total Schools
   * Total Students
   * Total Budget
@@ -19,10 +13,13 @@ Your final report should include each of the following:
   * % Passing Math
   * % Passing Reading
   * Overall Passing Rate (Average of the above two)
+<br>
+![DistrictSummary](Resources/District_Summary.PNG)
+<br>
 
 ### School Summary
 
-* Create an overview table that summarizes key metrics about each school, including:
+Table that summarizes key metrics about each school:
   * School Name
   * School Type
   * Total Students
@@ -33,6 +30,10 @@ Your final report should include each of the following:
   * % Passing Math
   * % Passing Reading
   * Overall Passing Rate (Average of the above two)
+<br>
+![School_Summary](Resources/School_Summary.PNG)
+<br>
+
 
 ### Top Performing Schools (By Passing Rate)
 
