@@ -98,10 +98,10 @@ Table that breaks down school performances based on School Type (Charter and Dis
 ![Scores_By_School_Type](PyCitySchools/Resources/Scores_By_School_Type.PNG)
 <br><br><br>
 
-# ANALYSIS
-<br>
+# ANALYSIS<br>
+
 * The overall passing rate seems to be directly related to the type of school. Charter schools
-have higher passing rates than district schools by around an average of 22% 
-<br>
+have higher passing rates than district schools by around an average of 22%.<br>
+
 * According to the table "Scores by School Spending", there is a correlation in the opposite direction between the "spending ranges(per student)" and the overall passing scores. As the money invested in the student increases, the results in the math and reading exams decrease. Conclusion: Schools with higher spending averages, have lower overall passing rate
 <br><br><br>
