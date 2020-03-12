@@ -1,6 +1,11 @@
 ## Exercise Using Pandas
 
 For this project, I analyzed the results of standardized tests for an entire school district. The data contains each student's math and reading scores, as well as a variety of information about the schools they attend.
+<br>
+
+## Tools used:
+*Pandas library
+*Jupyter Notebook.
 
 ### District Summary
 
@@ -12,8 +17,8 @@ Table of the district's key metrics:
   * Average Reading Score
   * % Passing Math
   * % Passing Reading
-  * Overall Passing Rate (Average of the above two)
-<br>
+  * Overall Passing Rate (Average of the above two)<br><br>
+
 ![DistrictSummary](Resources/District_Summary.PNG)
 <br>
 
@@ -29,15 +34,14 @@ Table that summarizes key metrics about each school:
   * Average Reading Score
   * % Passing Math
   * % Passing Reading
-  * Overall Passing Rate (Average of the above two)
-<br>
+  * Overall Passing Rate (Average of the above two)<br><br>
+
 ![School_Summary](Resources/School_Summary.PNG)
 <br>
 
-
 ### Top Performing Schools (By Passing Rate)
 
-* Create a table that highlights the top 5 performing schools based on Overall Passing Rate. Include:
+Table that highlights the top 5 performing schools based on Overall Passing Rate:
   * School Name
   * School Type
   * Total Students
@@ -47,56 +51,57 @@ Table that summarizes key metrics about each school:
   * Average Reading Score
   * % Passing Math
   * % Passing Reading
-  * Overall Passing Rate (Average of the above two)
+  * Overall Passing Rate (Average of the above two)<br><br>
+
+![Top_Performing_Schools](Resources/Top_Performing_Schools.PNG)
+<br>
 
 ### Bottom Performing Schools (By Passing Rate)
 
-* Create a table that highlights the bottom 5 performing schools based on Overall Passing Rate. Include all of the same metrics as above.
+Table that highlights the bottom 5 performing schools based on Overall Passing Rate. Include all of the same metrics as above.<br><br>
 
-### Math Scores by Grade\*\*
+![Bottom_Performing_Schools](Resources/Bottom_Performing_Schools.PNG)
+<br>
 
-* Create a table that lists the average Math Score for students of each grade level (9th, 10th, 11th, 12th) at each school.
+### Math Scores by Grade
+
+Table that lists the average Math Score for students of each grade level (9th, 10th, 11th, 12th) at each school:<br><br>
+
+![Math_Scores_By_Grade](Resources/Math_Scores_By_Grade.PNG)
+<br>
 
 ### Reading Scores by Grade
 
-* Create a table that lists the average Reading Score for students of each grade level (9th, 10th, 11th, 12th) at each school.
+Table that lists the average Reading Score for students of each grade level (9th, 10th, 11th, 12th) at each school.<br><br>
+
+![Reading_Scores_By_Grade](Resources/Reading_Scores_By_Grade.PNG)
+<br>
 
 ### Scores by School Spending
 
-* Create a table that breaks down school performances based on average Spending Ranges (Per Student). Use 4 reasonable bins to group school spending. Include in the table each of the following:
-  * Average Math Score
-  * Average Reading Score
-  * % Passing Math
-  * % Passing Reading
-  * Overall Passing Rate (Average of the above two)
+Table that breaks down school performances based on average Spending Ranges (Per Student). I had to use 4 reasonable bins to group school spending.<br><br>
+
+![Scores_By_School_Spending](Resources/Scores_By_School_Spending.PNG)
+<br>
 
 ### Scores by School Size
 
-* Repeat the above breakdown, but this time group schools based on a reasonable approximation of school size (Small, Medium, Large).
+Table that breaks down school performances based on School Size (Per Student). I had to use 4 reasonable bins to group school size (Small, Medium, Large).<br><br>
+
+![Scores_By_School_Size](Resources/Scores_By_School_Size.PNG)
+<br>
 
 ### Scores by School Type
 
-* Repeat the above breakdown, but this time group schools based on school type (Charter vs. District).
+Table that breaks down school performances based on School Type (Charter and District) <br><br>
 
-As final considerations:
+![Scores_By_School_Type](Resources/Scores_By_School_Type.PNG)
+<br><br><br>
 
-* Use the pandas library and Jupyter Notebook.
-* You must submit a link to your Jupyter Notebook with the viewable Data Frames.
-* You must include a written description of at least two observable trends based on the data.
-* See [Example Solution](PyCitySchools/PyCitySchools_starter.ipynb) for a reference on the expected format.
-
-## Hints and Considerations
-
-* These are challenging activities for a number of reasons. For one, these activities will require you to analyze thousands of records. Hacking through the data to look for obvious trends in Excel is just not a feasible option. The size of the data may seem daunting, but pandas will allow you to efficiently parse through it.
-
-* Second, these activities will also challenge you by requiring you to learn on your feet. Don't fool yourself into thinking: "I need to study pandas more closely before diving in." Get the basic gist of the library and then _immediately_ get to work. When facing a daunting task, it's easy to think: "I'm just not ready to tackle it yet." But that's the surest way to never succeed. Learning to program requires one to constantly tinker, experiment, and learn on the fly. You are doing exactly the _right_ thing, if you find yourself constantly practicing Google-Fu and diving into documentation. There is just no way (or reason) to try and memorize it all. Online references are available for you to use when you need them. So use them!
-
-* Take each of these tasks one at a time. Begin your work, answering the basic questions: "How do I import the data?" "How do I convert the data into a DataFrame?" "How do I build the first table?" Don't get intimidated by the number of asks. Many of them are repetitive in nature with just a few tweaks. Be persistent and creative!
-
-* Expect these exercises to take time! Don't get discouraged if you find yourself spending  hours initially with little progress. Force yourself to deal with the discomfort of not knowing and forge ahead. Consider these hours an investment in your future!
-
-* As always, feel encouraged to work in groups and get help from your TAs and Instructor. Just remember, true success comes from mastery and _not_ a completed homework assignment. So challenge yourself to truly succeed!
-
-### Copyright
-
-Trilogy Education Services © 2019. All Rights Reserved.
+# ANALYSIS
+<br>
+* The overall passing rate seems to be directly related to the type of school. Charter schools
+have higher passing rates than district schools by around an average of 22% 
+<br>
+* According to the table "Scores by School Spending", there is a correlation in the opposite direction between the "spending ranges(per student)" and the overall passing scores. As the money invested in the student increases, the results in the math and reading exams decrease. Conclusion: Schools with higher spending averages, have lower overall passing rate
+<br><br><br>
