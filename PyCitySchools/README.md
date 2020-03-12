@@ -4,8 +4,8 @@ For this project, I analyzed the results of standardized tests for an entire sch
 <br>
 
 ## Tools used:
-*Pandas library
-*Jupyter Notebook.
+* Pandas library.
+* Jupyter Notebook.
 
 ### District Summary
 
